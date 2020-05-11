@@ -1,19 +1,19 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
+        "module": "ES6",
+        "moduleResolution": "node",
+        "target": "es6",
+        "jsx": "react",
         "noImplicitAny": false,
         "inlineSourceMap": true,
-        "declaration": true,
-        "strictNullChecks": true,
+        "strict": true,
         "lib": [
             "es6",
             "dom",
             "dom.iterable"
         ],
-        "downlevelIteration": true,
-        "noImplicitThis": true,
-        "outDir": "dist",
-        "rootDir": "src"
-    }
+        "outDir": "dist/esm",
+        "rootDir": "src",
+    },
+    "exclude": ["dist"]
 }

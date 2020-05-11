@@ -1,7 +1,7 @@
 import { toSelector } from "../selector";
 import { createSelectorAsync, createSelectorRx } from "./async";
-import { delay, obsToPromise, toObservable, rxFlatten } from "../../logic";
-import { toSyncPromise, isSyncPromise } from "../../promise/logic";
+import { delay, obsToPromise, toObservable, rxFlatten } from "simple-pure-utils";
+import { toSyncPromise, isSyncPromise } from "simple-pure-utils";
 import { Observable, from } from "rxjs";
 import { map } from "rxjs/operators";
 

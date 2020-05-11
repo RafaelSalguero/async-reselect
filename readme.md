@@ -1,2 +1,2 @@
-# keautils
-Funciones puras para manipulación de colecciones y cadenas
+# async-reselect
+reselect with promise and observable support
